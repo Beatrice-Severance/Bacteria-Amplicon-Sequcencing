@@ -17,7 +17,7 @@ This is a script that will filter out bad quality reads from the previous step. 
 This is a script that can dereplicate, cluster, and remove chimeras. Certain steps can be commented out if unnecessary for user's purpose.
 - De-noising step will provide zero-radius OTUs (zOTUs).
 - Clustering will provide OTUs based on traditional 97% identity.
-USEARCH is a program that is utilized for the de-noising nad clustering steps. For more information on these programs the following links can be used:
+- USEARCH is a program that is utilized for the de-noising and clustering steps. For more information on these programs the following links can be used:
 - UPARSE vs. UNOISE: http://www.drive5.com/usearch/manual/faq_uparse_or_unoise.html 
 - otutab command: http://www.drive5.com/usearch/manual/cmd_otutab.html 
 - Sample identifiers in read labels: http://www.drive5.com/usearch/manual/upp_labels_sample.html 
