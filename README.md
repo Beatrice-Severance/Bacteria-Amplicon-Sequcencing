@@ -1,4 +1,4 @@
-# Bacteria-Amplicon-Sequcencing
+# Bacteria-Amplicon-Sequencing
 A pipeline that encompasses the computational steps of 16S amplicon sequencing, starting from demultiplexed reads.
 
 # Merging reads (merge_reads.sh)
