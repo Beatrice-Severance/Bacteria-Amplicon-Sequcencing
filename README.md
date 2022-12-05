@@ -30,4 +30,5 @@ This is a script that will create an OTU table that can be used for further down
 # Taxonomy (taxonomy.sh)
 This is a script that utilizes the SINTAX algorithm to create a taxonomy for the otus.fasta file created in the clustering step.
 
+#
 Combined, these steps should provide output files that can be utilized in a phyloseq object in R.
