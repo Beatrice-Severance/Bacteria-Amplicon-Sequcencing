@@ -1,7 +1,7 @@
 # Bacteria-Amplicon-Sequencing
 A pipeline that encompasses the computational steps of 16S amplicon sequencing, starting from demultiplexed reads.
-The scripts in this pipeline were originally run on the Alabama supercomputer (https://www.asc.edu/) and thus might make reproducability difficult for users who do not utilize this system.
-Scripts for this pipeline are grouped in a folder with the "samples.txt" file. The Alabama HPC utilizes a slurm queue system where jobs are submitted and run. The scripts being located in the same file along with the samples file helps run jobs in the queue more efficiently.
+The scripts in this pipeline were originally run on the Alabama supercomputer (https://www.asc.edu/) and thus might make reproducibility difficult for users who do not utilize this system.
+Scripts for this pipeline are grouped in a folder along with the "samples.txt" file. The Alabama HPC utilizes a slurm queue system where jobs are submitted and run. The scripts being located in the same file along with the samples file helps run jobs in the queue more efficiently.
 
 # Merging reads (merge_reads.sh)
 This is a loop script that will merge forward and reverse reads from a set of samples. The file "samples.txt" includes sample identifiers to run this script. 
