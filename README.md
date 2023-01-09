@@ -39,11 +39,11 @@ This is a script that utilizes the SINTAX algorithm to create a taxonomy for the
 Combined, these steps should provide output files that can be utilized in a phyloseq object in R.
 
 # R Analysis
-R analysis begins by creating a phyloseq object. Before beginning, ensure that you have the following files:
-- otu_table_16s.csv
-- 16s_taxonomy.csv
-- metadata2021.csv
-- otus.fasta
+R analysis begins by creating a phyloseq object. Before beginning, ensure that you have the following files downloaded and in an appropriate directory so that R can utilize them:
+- otu_table_16s.csv (https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/phyloseq_input/otu_table_16s.csv)
+- 16s_taxonomy.csv (https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/phyloseq_input/16s_taxonomy.csv)
+- metadata2021.csv (https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/phyloseq_input/metadata2021.csv)
+- otus.fasta (https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/phyloseq_input/otus.fasta)
 
 The R markdown file (Phyloseq_Analysis.Rmd) will execute the following steps:
 - Load Dependencies
