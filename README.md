@@ -39,8 +39,21 @@ This is a script that utilizes the SINTAX algorithm to create a taxonomy for the
 Combined, these steps should provide output files that can be utilized in a phyloseq object in R.
 
 # R Analysis
-R analysis begins by creating a phyloseq object. After loading the dependencies, ensure that you have the following files:
+R analysis begins by creating a phyloseq object. Before beginning, ensure that you have the following files:
 - otu_table_16s.csv
 - 16s_taxonomy.csv
 - metadata2021.csv
 - otus.fasta
+
+The R markdown file (Phyloseq_Analysis.Rmd) will execute the following steps:
+- Load Dependencies
+- Utilize a colorblind palette
+- Load the above files to create a phyloseq object
+- Remove mitrochondria, chloroplasts, or taxa not assigned at domain level
+- Decontaminate the data
+- Provide read distribution for the dataset (including a histogram)
+- Rarefaction analysis (including line graphs)
+- Alpha diversity analysis, including "richness over time" and "richness over treatment" plots
+- Cumulative sum scaling (CSS) Normalization
+- Beta diversity analysis, including a principal coordinates analysis (PCoA) plot with Bray-Curtis distances and a detrended correspondence analysis (DCA, to eliminate time as a factor)
+- PERMANOVA to test for differences in centroids
