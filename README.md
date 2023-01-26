@@ -10,7 +10,7 @@ This is a loop script that will merge forward and reverse reads from a set of sa
 This is a loop script that will remove primers that may be included in the output from the merging reads step. The "samples.txt" file will be used in this step as well.
 Linked primers are used because the 300 bp demultiplexed reads likely span the entire amplicon, and it is expected that both primers might be in the forward and reverse reads. The primers used in this code are:
 - 515F = GTGCCAGCMGCCGCGGTAA RC-515R = TTACCGCGGCKGCTGGCAC
-- 806R = GGACTACHVGGGTWTCTAAT RC-806R = ATTAGAWACCCBDGTAGTCC
+- 806F = GGACTACHVGGGTWTCTAAT RC-806R = ATTAGAWACCCBDGTAGTCC
 
 # Run Statistics (stats.sh)
 This is a script that allows users to view some statistics on their dataset. If data is consistent with what users are expecting, the pipeline can be continued.
