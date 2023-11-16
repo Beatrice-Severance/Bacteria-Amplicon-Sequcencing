@@ -30,7 +30,7 @@ This is a script that can dereplicate, cluster, and remove chimeras. Dereplicati
 - [Technical support](http://drive5.com/usearch/manual/support.html) 
 
 # [Mapping](https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/Scripts/mapping.sh)
-This is a script that will create an OTU table that can be used for further downstream analysis. It utilizes the input from the merge reads step and aligns these reads back to the clustered OTUs or zOTUs.
+This is a script that will create an OTU table that can be used for further downstream analysis. A [Python script](/home/aubbxs/noel_shared/Demultiplexed_2022-05-04_PecanSpermosphere_Bacteria_MigsOrder9721) is used to edit filenames so that headers are appropriate for this analysis. The mapping script utilizes the input from the merge reads step and aligns these reads back to the clustered OTUs or zOTUs.
 
 # [Taxonomy](https://github.com/Beatrice-Severance/Bacteria-Amplicon-Sequcencing/blob/main/Scripts/taxonomy.sh)
 This is a script that utilizes the SINTAX algorithm to create a taxonomy for the otus.fasta file created in the clustering step. The SINTAX algorithm is used because it predicts taxonomy for marker genes like 16S.
